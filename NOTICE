@@ -1,0 +1,40 @@
+openclaw-max-proxy-integration
+Copyright (c) 2026 Greysave contributors
+
+Original material in this repository (docs, examples, validator, tests) is licensed under the MIT License (LICENSE).
+
+Third-party attribution
+-----------------------
+This project documents how to integrate OpenClaw with the open-source "claude-max-api-proxy":
+
+  - Original project: atalovesyou/claude-max-api-proxy, by Atal Ashutosh (https://github.com/atalovesyou/claude-max-api-proxy)
+  - Maintained fork:  wende/claude-max-api-proxy (https://github.com/wende/claude-max-api-proxy)
+
+Both are MIT licensed. No upstream source code is included in this repository. If you copy or adapt any
+substantial portion of upstream code into a derivative, you must retain the upstream notice below:
+
+    MIT License
+
+    Copyright (c) 2026 Atal Ashutosh
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+Not affiliated: this is an unofficial community project. It is not affiliated with, endorsed by, or sponsored by
+Anthropic, OpenClaw, Atal Ashutosh, or the maintainers of the proxy. "Claude" and "Anthropic" are trademarks of
+Anthropic, PBC; "OpenClaw" belongs to its owners. Names are used only to describe compatibility.

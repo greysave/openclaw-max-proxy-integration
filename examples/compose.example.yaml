@@ -1,0 +1,14 @@
+# Synthetic example. Single-user, loopback-only. No credentials in this file.
+services:
+  claude-cli-shim:
+    image: example.invalid/claude-cli-shim:placeholder   # build from the upstream project yourself
+    user: "1000:1000"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    ports:
+      - "127.0.0.1:3456:3456"          # never 0.0.0.0
+    volumes:
+      # Your own CLI login, mounted from your own home directory. Never bake into an image or commit.
+      - ${HOME}/.claude-shim-auth:/home/node/.claude
+    restart: unless-stopped

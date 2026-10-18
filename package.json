@@ -1,0 +1,9 @@
+{
+  "name": "openclaw-max-proxy-integration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unofficial notes, synthetic examples and a validator for pointing OpenClaw at a local, single-user CLI shim.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test \"test/*.test.js\"" }
+}

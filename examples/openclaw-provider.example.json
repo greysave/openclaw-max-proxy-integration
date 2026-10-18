@@ -1,0 +1,15 @@
+{
+  "_comment": "Synthetic example. Loopback only. The apiKey is a dummy; the local shim ignores it.",
+  "models": {
+    "providers": {
+      "local-claude-cli-shim": {
+        "baseUrl": "http://127.0.0.1:3456/v1",
+        "api": "openai-completions",
+        "apiKey": "unused-placeholder",
+        "models": [
+          { "id": "claude-sonnet-placeholder", "name": "Sonnet via local CLI shim", "contextWindow": 200000, "maxTokens": 8192 }
+        ]
+      }
+    }
+  }
+}
